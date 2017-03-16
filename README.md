@@ -7,7 +7,7 @@ This repo contains :
 ## Installation 
 
 Copy the CleanBoilerplate.xctemplate folder into :
-```/Users/dodinhthyson/Library/Developer/Xcode/Templates```
+```~/Library/Developer/Xcode/Templates```
 
 ## Credits
 All right reserved., Do Dinh Thy Son, 2017.

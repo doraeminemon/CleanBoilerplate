@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>display</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>func display&lt;#layerName#&gt;View() {
+    let view = &lt;#layerView#&gt;
+    let presenter = &lt;#layerPresenter#&gt;
+    let interactor = &lt;#layerInteractor#&gt;
+  
+    view.interactor = interactor
+    interactor.presenter = presenter
+    presenter.view = view
+    
+    navigationController.pushViewController(view, animated: true)
+  }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>800569A0-1767-439E-884D-DEE30AE54B2F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>snippet to display new layer view</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>RouterSnippet</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
